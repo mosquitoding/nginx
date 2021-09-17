@@ -1,0 +1,11 @@
+ctx需要定义一个common的部分，入参进行参数检查
+ngx_int_t
+kongka_async_http_client_send_request(
+								ngx_uint_t method,
+								ngx_str_t uri,
+								ngx_array_t *headers,
+								ngx_str_t client_loc,
+								ngx_module_t *module
+								void *ctx
+								)
+                
